@@ -24,7 +24,7 @@ const Payment = () => {
           No subscriptions. No in-app purchases. Requires macOS 11 Big Sur or later.
           </p>
       </div>
-      <p className="pt-6">
+      <p className="pt-6 mb-12">
         <a className="flex items-center max-w-[540px] lg:max-w-full text-gray-700 dark:text-white/80 bg-gray-50 dark:bg-transparent hover:bg-white dark:hover:bg-white/5 shadow-outline dark:shadow-outline-superbright px-4 py-3 gap-3 rounded-3xl transition" href="/updates/sleeve-2-2-for-sonoma">
           <img src="https://replay.software/sleeve/images/Sonoma.png"
             width="40" height="40" alt="macOS Sonoma Icon"
