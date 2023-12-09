@@ -7,7 +7,7 @@ const Card = () => {
               <span className="px-1.5 py-0.5 pb-px text-xs text-white dark:text-black bg-[#0D9EFF] dark:bg-[#5DB7D2] rounded-full">2.0
               </span>
           </small>
-          <h2 className="text-3xl md:text-5xl font-bold">Themes.
+          <h2 className="text-3xl md:text-5xl font-bold mt-10">Themes.
               <>Unlimited themes</>
           </h2>
           <p className="text-lg md:text-2xl max-w-5xl">Themes in Sleeve make creating and switching between customizations easy. Share your own creations with friends and install as many themes as you like with just a double-click.

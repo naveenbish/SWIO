@@ -12,7 +12,7 @@ const Home = () => {
                 </h1>
                 </div>
           <div className="flex flex-col items-center ">
-          <p className=" text-2xl  text-white sm:text-5xl font-bold max-w-[20ch] lg:max-w-full mb-6">
+          <p className=" text-2xl  text-white sm:text-5xl font-bold max-w-[20ch] lg:max-w-full mb-8">
               The ultimate music accessory for your Mac.
                 </p>
                 <p className="text-lg sm:text-2xl max-w-3xl dark:text-white/80 ">
