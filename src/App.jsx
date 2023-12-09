@@ -3,10 +3,10 @@ import Home from "./components/Home"
 
 const App = () => {
   return (
-    <main className= "">
-
-     <Home />
-    </main>
+    <body className="flex flex-col antialiased">
+      
+      <Home/>
+    </body>
   )
 }
 
