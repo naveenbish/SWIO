@@ -6,7 +6,7 @@ const Home = () => {
     <div className='flex  justify-center mb-7 '>
           <h1 className="text-6xl md:text-8xl font-bold tracking-tight bg-gradient-to-b from-black to-[#444] bg-clip-text text-transparent dark:from-white dark:to-[#ccc] z-20 ">
               Sleeve
-              <span className="font-light">
+              <span className="font-bold">
                   2
               </span>
                 </h1>
