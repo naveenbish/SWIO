@@ -1,7 +1,23 @@
-import { Link } from "react-router-dom"
-
+import {loadStripe} from '@stripe/stripe-js';
+import { useState } from 'react';
 
 const Payment = () => {
+
+  function cart() {
+    
+  }
+  //payment integration tests
+
+  const MakePayment = async () => {
+  //   const stripe = await loadStripe("pk_test_51Nc4BESHvLfWLlsnjp1azv1ARWB9QUqmJsI7Zn9ZouJDJxCmr4Z7uPStA9o5JPEXvDEoTYZUGcy8A9SXcnArsaMI00xf8UlDD0");
+
+  //   const body = {
+  //     products:cart
+  //   }
+  //   const headers = {
+      
+  //   }
+  // }
   
   return (
     <div className="flex flex-col items-center gap-7 pt-6 text-center  ">
@@ -19,10 +35,11 @@ const Payment = () => {
         </a>
         <button className="relative flex items-center justify-center gap-3 px-6 h-14 font-semibold text-lg bg-gray-50 dark:bg-transparent active:bg-gray-100 dark:active:bg-white/0 hover:bg-white dark:hover:bg-white/5 border border-black/10 dark:border-white/30 dark:active:border-white/20 dark:hover:border-white/50 dark:active:text-white/50 shadow shadow-black/5 active:shadow-black/0 rounded-xl transition text-white">
           <span>
-            <Link to="https://stripe.com/en-in">
            
+           <button onClick={MakePayment}>
               Buy Directly
-               </Link>
+              </button>
+              
           </span>
           <span className="px-2.5 py-1 text-sm text-white dark:text-black bg-black dark:bg-white/90 rounded-full">$5.99</span>
         </button>
