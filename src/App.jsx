@@ -2,6 +2,8 @@ import Card from "./components/Card"
 import Home from "./components/Home"
 import Payment from "./components/Payment"
 
+import AppleMusic from "./components/AppleMusic"
+
 
 const App = () => {
   return (
@@ -9,7 +11,8 @@ const App = () => {
       
       <Home />
       <Payment />
-      <Card/>
+      <Card />
+     <AppleMusic />
     </body>
   )
 }
