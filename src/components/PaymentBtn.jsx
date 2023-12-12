@@ -19,7 +19,7 @@ const PaymentBtn=()=>{
             console.log("rezore pay faild to load")
           }
           const optiones={
-            key:"ScCWY3yjIf9O8qdljfazfmEk",
+            key:"rzp_test_e684qjpT2GcMb6",
             amount: 1 * 100,
             currency: "INR",
             name: "booking",
@@ -29,8 +29,8 @@ const PaymentBtn=()=>{
                 navigator("/success")
             },
             prefill:{
-                name: "pasha",
-                email: "a@gmail.com"
+                name: "pavan kumar",
+                email: "siriyalapavankumar@gmail.com"
             }
           }
           const paymentObject=new window.Razorpay(optiones);
@@ -39,7 +39,7 @@ const PaymentBtn=()=>{
         }
     return(
         <div>
-            <button onClick={()=> fun}>clk</button>
+            <button onClick={()=> fun()}>Buy Directly</button>
         </div>
     )
 }

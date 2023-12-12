@@ -22,9 +22,9 @@ const Payment = () => {
           Mac App Store
         </a>
         <button className="relative flex items-center justify-center gap-3 px-6 h-14 font-semibold text-lg bg-gray-50 dark:bg-transparent active:bg-gray-100 dark:active:bg-white/0 hover:bg-white dark:hover:bg-white/5 border border-black/10 dark:border-white/30 dark:active:border-white/20 dark:hover:border-white/50 dark:active:text-white/50 shadow shadow-black/5 active:shadow-black/0 rounded-xl transition text-white">
-          <span>
+         
                <PaymentBtn/>
-          </span>
+        
           <span className="px-2.5 py-1 text-sm text-white dark:text-black bg-black dark:bg-white/90 rounded-full">$5.99</span>
         </button>
       </div>

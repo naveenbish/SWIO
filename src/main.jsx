@@ -7,6 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Payment from './components/Payment.jsx';
+import Sucess from './components/Sucess.jsx';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/payment",
     element:<Payment/>
+  },
+  {
+    path: "/success",
+    element:<Sucess/>,
   }
 ]);
 
