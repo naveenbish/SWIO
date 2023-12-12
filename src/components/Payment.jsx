@@ -1,23 +1,42 @@
-import {loadStripe} from '@stripe/stripe-js';
-import { useState } from 'react';
+
 
 const Payment = () => {
+  
 
-  function cart() {
-    
-  }
-  //payment integration tests
+  const handleClick = async () => {
+    try {
+      const response = await fetch("http://localhost:3000/create-checkout-session", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          items: [
+            { id: 1, quantity: 3 },
+            { id: 2, quantity: 1 },
+          ],
+        }),
+      });
 
-  const MakePayment = async () => {
-  //   const stripe = await loadStripe("pk_test_51Nc4BESHvLfWLlsnjp1azv1ARWB9QUqmJsI7Zn9ZouJDJxCmr4Z7uPStA9o5JPEXvDEoTYZUGcy8A9SXcnArsaMI00xf8UlDD0");
+      if (!response.ok) {
+        const errorJson = await response.json();
+        throw errorJson;
+      }
 
-  //   const body = {
-  //     products:cart
-  //   }
-  //   const headers = {
-      
-  //   }
-  // }
+      const { url } = await response.json();
+      window.location = url;
+    } catch (e) {
+      console.error(e.error);
+    }
+  
+  return (
+    <button onClick={handleClick}>
+      Make Payment
+    </button>
+  );
+};
+
+  
   
   return (
     <div className="flex flex-col items-center gap-7 pt-6 text-center  ">
@@ -36,7 +55,7 @@ const Payment = () => {
         <button className="relative flex items-center justify-center gap-3 px-6 h-14 font-semibold text-lg bg-gray-50 dark:bg-transparent active:bg-gray-100 dark:active:bg-white/0 hover:bg-white dark:hover:bg-white/5 border border-black/10 dark:border-white/30 dark:active:border-white/20 dark:hover:border-white/50 dark:active:text-white/50 shadow shadow-black/5 active:shadow-black/0 rounded-xl transition text-white">
           <span>
            
-           <button onClick={MakePayment}>
+           <button onClick={handleClick}>
               Buy Directly
               </button>
               
