@@ -9,11 +9,10 @@ const App = () => {
   return (
     <body className="flex flex-col antialiased">
       
-      {/* <Home />
+      <Home />
       <Payment />
       <Card />
-      <AppleMusic /> */}
-      <Trial/>
+      <AppleMusic />
     </body>
   )
 }
