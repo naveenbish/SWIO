@@ -16,14 +16,14 @@ const PaymentBtn=()=>{
         }
           const response=await loadScript("https://checkout.razorpay.com/v1/checkout.js")
           if(!response){
-            console.log("rezore pay faild to load")
+            console.log("razorpay faild to load")
           }
           const optiones={
             key:"rzp_test_e684qjpT2GcMb6",
-            amount: 1 * 100,
-            currency: "INR",
-            name: "booking",
-            email: "a@gmail.com",
+            amount: 5.99*100,
+            currency: "USD",
+            name: "pavan",
+            email: "siriyalapavan@gmail.com",
             descrption: "Thank you booking!!!!!!!!!!!!!!!!!!!!",
             handler:()=>{
                 navigator("/success")
@@ -39,7 +39,10 @@ const PaymentBtn=()=>{
         }
     return(
         <div>
-            <button onClick={()=> fun()}>Buy Directly</button>
+        <button
+          className=" text-white"
+          onClick={() => fun()}>Buy Directly
+        </button>
         </div>
     )
 }

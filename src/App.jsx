@@ -3,6 +3,7 @@ import Home from "./components/Home"
 import Payment from "./components/Payment"
 import AppleMusic from "./components/AppleMusic"
 import Customize from "./components/Customize"
+import Artwork from "./components/Artwork"
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
       <Payment />
       <Card />
       <AppleMusic />
-      <Customize/>
+      <Customize />
+      <Artwork />
     </body>
   )
 }
