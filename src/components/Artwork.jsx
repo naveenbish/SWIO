@@ -4,7 +4,7 @@ const Artwork = () => {
   return (
     <div>
           <h1>
-              Hey
+              Hey i'm here
       </h1>
     </div>
   )
