@@ -1,9 +1,7 @@
+import BigCard from "./components/BigCard"
 import Card from "./components/Card"
 import Home from "./components/Home"
 import Payment from "./components/Payment"
-import AppleMusic from "./components/AppleMusic"
-import Customize from "./components/Customize"
-import Artwork from "./components/Artwork"
 
 const App = () => {
   return (
@@ -11,9 +9,8 @@ const App = () => {
       <Home />
       <Payment />
       <Card />
-      <AppleMusic />
-      <Customize />
-      <Artwork />
+      <BigCard />
+     
     </body>
   )
 }

@@ -2,8 +2,8 @@
 
 const Home = () => {
     return (
-      <div className="flex flex-col items-center">
-    <div className='flex  justify-center mb-7 '>
+      <div className=" relative flex flex-col items-center gap-6 text-center">
+    <div className=' relative flex  flex-col items-center z-10'>
           <h1 className="text-6xl md:text-8xl font-bold tracking-tight bg-gradient-to-b from-black to-[#444] bg-clip-text text-transparent dark:from-white dark:to-[#ccc] z-20 ">
               Sleeve
               <span className="font-bold">
