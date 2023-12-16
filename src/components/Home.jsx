@@ -2,17 +2,17 @@
 
 const Home = () => {
     return (
-      <div className=" relative flex flex-col items-center gap-6 text-center">
-    <div className=' relative flex  flex-col items-center z-10'>
-          <h1 className="text-6xl md:text-8xl font-bold tracking-tight bg-gradient-to-b from-black to-[#444] bg-clip-text text-transparent dark:from-white dark:to-[#ccc] z-20 ">
-              Sleeve
-              <span className="font-bold">
+      <div className=" flex flex-col items-center gap-6 text-center">
+    <div className=' flex  flex-col items-center z-10'>
+          <h1 className="  text-5xl md:text-7xl  font-bold tracking-tight bg-gradient-to-b from-black to-[#444] bg-clip-text text-transparent dark:from-white dark:to-[#ccc] z-20 ">
+             Sleeve 
+              <span className="font-light m-7">
                   2
               </span>
                 </h1>
                 </div>
           <div className="flex flex-col items-center ">
-          <p className=" text-2xl  text-white sm:text-5xl font-bold max-w-[20ch] lg:max-w-full mb-8">
+          <p className=" text-xl  text-white sm:text-5xl font-bold max-w-[20ch] lg:max-w-full mb-8">
               The ultimate music accessory for your Mac.
                 </p>
                 <p className="text-lg sm:text-2xl max-w-3xl dark:text-white/80 ">

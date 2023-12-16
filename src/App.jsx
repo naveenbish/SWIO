@@ -1,15 +1,17 @@
 import BigCard from "./components/BigCard"
-import Card from "./components/Card"
 import Home from "./components/Home"
 import Payment from "./components/Payment"
+import RedirectToSonoama from "./components/RedirectToSonoama"
 
 const App = () => {
   return (
     <body className="flex flex-col antialiased">
       <Home />
       <Payment />
-      <Card />
+      <RedirectToSonoama />
       <BigCard />
+      
+    
      
     </body>
   )

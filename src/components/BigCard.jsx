@@ -1,20 +1,20 @@
-
-
 const BigCard = () => {
-  return (
+    return (
+      <div className="md:col-span-2 h-[360px] max-w-full bg-[url('https://replay.software/sleeve/images/HeroDark@2x.png'),_linear-gradient(to_top_right,#0E95EE,#27C9F5)] dark:bg-[url('https://replay.software/sleeve/images/HeroDark@2x.png'),_linear-gradient(to_top_right,#07384B,#0F536E)] bg-cover bg-bottom rounded-2xl shadow-outline dark:shadow-outline-bright">
       <div className="flex w-full h-full items-center justify-center md:gap-8 lg:gap-16 overflow-hidden">
           <div className="pt-3">
               <div className="relative flex flex-1 items-center justify-center text-center z-20">
                   <div className=" flex-col items-center flex gap-x-3 gap-y-2 p-4 rounded-2xl">
                       <div className="relative w-48 h-48">
-                          <span className="opacity-100 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('/sleeve/images/ArtSlowMagic.jpg')]">
+                          <span className="opacity-100 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtSlowMagic.jpg')]">      
                           </span>
-                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('/sleeve/images/ArtCarolinePolachek.jpg')]">
+                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtCarolinePolachek.jpg')]">
                           </span>
-                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('/sleeve/images/ArtChelseaCutler.jpg')]">
+                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtChelseaCutler.jpg')]">
                           </span>
-                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('/sleeve/images/ArtPetitBiscuit.jpg')]">
+                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg  bg-[url('https://replay.software/sleeve/images/ArtPetitBiscuit.jpg')]">
                           </span>
+ 
                       </div>
                       <div className="items-center  relative flex flex-col -space-y-1 text-shadow whitespace-nowrap z-20 sm:min-w-[140px]">
                           <span className="text-[15px] font-bold text-white/100 leading-normal min-h-[4px]">
@@ -34,14 +34,15 @@ const BigCard = () => {
               <div className="relative flex flex-1 items-center justify-center text-center z-20">
                   <div className="bg-black/30 backdrop-blur-lg shadow-lg pr-8 flex-row items-center flex gap-x-3 gap-y-2 p-4 rounded-2xl">
                       <div className="relative w-32 h-32">
-                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-lg shadow-big bg-[url('/sleeve/images/ArtSlowMagic.jpg')]">
+                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtSlowMagic.jpg')]">      
                           </span>
-                          <span className="opacity-100 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-lg shadow-big bg-[url('/sleeve/images/ArtCarolinePolachek.jpg')]">
+                          <span className="opacity-100 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtCarolinePolachek.jpg')]">
                           </span>
-                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-lg shadow-big bg-[url('/sleeve/images/ArtChelseaCutler.jpg')]">
+                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtChelseaCutler.jpg')]">
                           </span>
-                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-lg shadow-big bg-[url('/sleeve/images/ArtPetitBiscuit.jpg')]">
+                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg  bg-[url('https://replay.software/sleeve/images/ArtPetitBiscuit.jpg')]">
                           </span>
+ 
                       </div>
                       <div className="items-start  relative flex flex-col -space-y-1 text-shadow whitespace-nowrap z-20 sm:min-w-[140px]">
                           <span className="text-[14px] font-bold text-white/100 leading-normal min-h-[4px]">
@@ -68,14 +69,15 @@ const BigCard = () => {
               <div className="relative flex flex-1 items-center justify-center text-center z-20">
                   <div className=" flex-col items-center flex gap-x-3 gap-y-2 p-4 rounded-2xl">
                       <div className="relative w-40 h-40">
-                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded shadow-lg bg-[url('/sleeve/images/ArtSlowMagic.jpg')]">
+                         <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtSlowMagic.jpg')]">      
                           </span>
-                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded shadow-lg bg-[url('/sleeve/images/ArtCarolinePolachek.jpg')]">
+                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtCarolinePolachek.jpg')]">
                           </span>
-                          <span className="opacity-100 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded shadow-lg bg-[url('/sleeve/images/ArtChelseaCutler.jpg')]">
+                          <span className="opacity-100 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtChelseaCutler.jpg')]">
                           </span>
-                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded shadow-lg bg-[url('/sleeve/images/ArtPetitBiscuit.jpg')]">
+                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg  bg-[url('https://replay.software/sleeve/images/ArtPetitBiscuit.jpg')]">
                           </span>
+ 
                       </div>
                       <div className="items-center  relative flex flex-col -space-y-1 text-shadow whitespace-nowrap z-20 sm:min-w-[140px]">
                           <span className="text-[13px] font-semibold text-white/100 leading-normal min-h-[4px]">
@@ -96,15 +98,15 @@ const BigCard = () => {
           <div className="relative flex flex-1 items-center justify-center text-center z-20">
               <div className=" flex-col items-center space-y-[-60px] flex gap-x-3 gap-y-2 p-4 rounded-2xl">
                   <div className="relative w-64 h-64">
-                      <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-2xl shadow-lg bg-[url('/sleeve/images/ArtSlowMagic.jpg')]">
-                      </span>
-                      <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-2xl shadow-lg bg-[url('/sleeve/images/ArtCarolinePolachek.jpg')]">
-                      </span>
-                      <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-2xl shadow-lg bg-[url('/sleeve/images/ArtChelseaCutler.jpg')]">
-                      </span>
-                      <span className="opacity-100 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-2xl shadow-lg bg-[url('/sleeve/images/ArtPetitBiscuit.jpg')]">
-                          
-                      </span>
+                      <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtSlowMagic.jpg')]">      
+                          </span>
+                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtCarolinePolachek.jpg')]">
+                          </span>
+                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtChelseaCutler.jpg')]">
+                          </span>
+                          <span className="opacity-100 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg  bg-[url('https://replay.software/sleeve/images/ArtPetitBiscuit.jpg')]">
+                          </span>
+ 
           </div>
                   <div className="items-center bg-black/50 py-2 w-full rounded-b-2xl backdrop-blur-lg relative flex flex-col -space-y-1 text-shadow whitespace-nowrap z-20 sm:min-w-[140px]">
                       <span className="text-[14px] font-semibold text-white/100 leading-normal min-h-[4px]">
@@ -117,8 +119,9 @@ const BigCard = () => {
       </span>
       </div>
       </div>
-      </div>
-      </div>
+                </div>
+                </div>
+    </div>
   )
 }
 
