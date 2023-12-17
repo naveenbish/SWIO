@@ -42,8 +42,7 @@ const Home = () => {
         Doppler.
       </span>
     </p>
-           
-            </div>
+       </div>
  
   )
 }
