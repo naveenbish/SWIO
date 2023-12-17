@@ -8,13 +8,6 @@ const BigCard = () => {
                       <div className="relative w-48 h-48">
                           <span className="opacity-100 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtSlowMagic.jpg')]">      
                           </span>
-                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtCarolinePolachek.jpg')]">
-                          </span>
-                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtChelseaCutler.jpg')]">
-                          </span>
-                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg  bg-[url('https://replay.software/sleeve/images/ArtPetitBiscuit.jpg')]">
-                          </span>
- 
                       </div>
                       <div className="items-center  relative flex flex-col -space-y-1 text-shadow whitespace-nowrap z-20 sm:min-w-[140px]">
                           <span className="text-[15px] font-bold text-white/100 leading-normal min-h-[4px]">
@@ -34,15 +27,8 @@ const BigCard = () => {
               <div className="relative flex flex-1 items-center justify-center text-center z-20">
                   <div className="bg-black/30 backdrop-blur-lg shadow-lg pr-8 flex-row items-center flex gap-x-3 gap-y-2 p-4 rounded-2xl">
                       <div className="relative w-32 h-32">
-                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtSlowMagic.jpg')]">      
-                          </span>
                           <span className="opacity-100 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtCarolinePolachek.jpg')]">
                           </span>
-                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtChelseaCutler.jpg')]">
-                          </span>
-                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg  bg-[url('https://replay.software/sleeve/images/ArtPetitBiscuit.jpg')]">
-                          </span>
- 
                       </div>
                       <div className="items-start  relative flex flex-col -space-y-1 text-shadow whitespace-nowrap z-20 sm:min-w-[140px]">
                           <span className="text-[14px] font-bold text-white/100 leading-normal min-h-[4px]">
@@ -68,14 +54,8 @@ const BigCard = () => {
           <div className="pt-3">
               <div className="relative flex flex-1 items-center justify-center text-center z-20">
                   <div className=" flex-col items-center flex gap-x-3 gap-y-2 p-4 rounded-2xl">
-                      <div className="relative w-40 h-40">
-                         <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtSlowMagic.jpg')]">      
-                          </span>
-                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtCarolinePolachek.jpg')]">
-                          </span>
+                      <div className="relative w-40 h-40">   
                           <span className="opacity-100 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtChelseaCutler.jpg')]">
-                          </span>
-                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg  bg-[url('https://replay.software/sleeve/images/ArtPetitBiscuit.jpg')]">
                           </span>
  
                       </div>
@@ -98,12 +78,6 @@ const BigCard = () => {
           <div className="relative flex flex-1 items-center justify-center text-center z-20">
               <div className=" flex-col items-center space-y-[-60px] flex gap-x-3 gap-y-2 p-4 rounded-2xl">
                   <div className="relative w-64 h-64">
-                      <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtSlowMagic.jpg')]">      
-                          </span>
-                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtCarolinePolachek.jpg')]">
-                          </span>
-                          <span className="opacity-0 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg bg-[url('https://replay.software/sleeve/images/ArtChelseaCutler.jpg')]">
-                          </span>
                           <span className="opacity-100 absolute inset-0 bg-cover transition duration-500 overflow-hidden rounded-xl shadow-lg  bg-[url('https://replay.software/sleeve/images/ArtPetitBiscuit.jpg')]">
                           </span>
  
@@ -116,13 +90,12 @@ const BigCard = () => {
                       </span>
                       <span className="text-[13px] font-semibold text-white/60 leading-normal min-h-[4px]">
                       Petit Biscuit
-      </span>
+        </span>
+       </div>
+        </div>
+       </div>
       </div>
       </div>
-                </div>
-                </div>
-    </div>
   )
 }
-
 export default BigCard
