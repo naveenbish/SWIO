@@ -1,5 +1,3 @@
-
-
 const Home = () => {
     return (
     <div className=' flex  flex-col items-center z-10 '>
@@ -49,5 +47,4 @@ const Home = () => {
  
   )
 }
-
 export default Home
