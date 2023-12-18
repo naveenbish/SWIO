@@ -4,7 +4,7 @@ const AfterRedirectText = () => {
     return (
       <section className="text-center">
       <div
-          className="flex flex-col items-center gap-8 mb-16 text-white">
+          className="flex flex-col items-center gap-8 text-white">
           <small
               className="inline-flex gap-2 font-semibold text-[#0D9EFF] dark:text-[#5DB7D2] uppercase tracking-wider">New in
               <span
