@@ -1,4 +1,4 @@
-import PaymentBtn from "./PaymentBtn"
+import PaymentBtn from "./RazorPayLogic"
 
 const Payment = () => {
   

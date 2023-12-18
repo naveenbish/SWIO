@@ -1,3 +1,5 @@
+import AfterBigCardLeft from "./components/AfterBigCardLeft"
+import AfterBigCardRight from "./components/AfterBigCardRight"
 import AfterRedirectText from "./components/AfterRedirectText"
 import BigCard from "./components/BigCard"
 import Home from "./components/Home"
@@ -11,7 +13,11 @@ const App = () => {
       <Payment />
       <RedirectToSonoama />
       <AfterRedirectText />
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
       <BigCard />
+      <AfterBigCardLeft />
+      <AfterBigCardRight />
+      </div>
     </body>
   )
 }

@@ -7,10 +7,10 @@ const Home = () => {
                   2
               </span>
                 </h1>
-          <p className=" relative  text-2xl  text-white sm:text-5xl font-bold max-w-[20ch] lg:max-w-full mb-8">
+          <p className="text-2xl  text-white sm:text-5xl font-bold max-w-[20ch] lg:max-w-full mb-8">
               The ultimate music accessory for your Mac.
                 </p>
-                <p className="text-lg sm:text-2xl max-w-3xl dark:text-white/80 ">
+                <p className=" sm:ml-8 text-lg  sm:text-2xl max-w-3xl dark:text-white/80 ">
       Sleeve sits on the desktop, displaying and controlling the music you’re currently playing in
       <span className="ml-1 whitespace-nowrap">
         <span className="relative top-[2px] mr-1 sm:mr-0 sm:top-[4px] inline-flex w-[20px] sm:w-[24px] h-[20px] sm:h-[24px]">
