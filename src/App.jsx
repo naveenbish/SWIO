@@ -1,5 +1,6 @@
 import AfterBigCardLeft from "./components/AfterBigCardLeft"
 import AfterBigCardRight from "./components/AfterBigCardRight"
+import AfterBigCardText from "./components/AfterBigCardText"
 import AfterRedirectText from "./components/AfterRedirectText"
 import BigCard from "./components/BigCard"
 import Home from "./components/Home"
@@ -18,6 +19,7 @@ const App = () => {
       <AfterBigCardLeft />
       <AfterBigCardRight />
       </div>
+      <AfterBigCardText/>
     </body>
   )
 }
