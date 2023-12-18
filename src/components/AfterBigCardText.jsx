@@ -1,5 +1,3 @@
-
-
 const AfterBigCardText = () => {
   return (
       <div className="flex flex-col items-center gap-8 mb-16">

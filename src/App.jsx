@@ -4,6 +4,7 @@ import AfterBigCardText from "./components/AfterBigCardText"
 import AfterRedirectText from "./components/AfterRedirectText"
 import BigCard from "./components/BigCard"
 import Home from "./components/Home"
+import ImmersiveCard from "./components/ImmersiveCard"
 import Payment from "./components/Payment"
 import RedirectToSonoama from "./components/RedirectToSonoama"
 
@@ -19,7 +20,8 @@ const App = () => {
       <AfterBigCardLeft />
       <AfterBigCardRight />
       </div>
-      <AfterBigCardText/>
+      <AfterBigCardText />
+     <ImmersiveCard />
     </body>
   )
 }
