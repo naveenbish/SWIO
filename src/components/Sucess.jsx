@@ -2,7 +2,7 @@
 
 const Sucess = () => {
   return (
-    <div className="text-5xl font-bold">
+    <div className="text-8xlxl font-bold text-center">
           successfully completed🎉🎊
     </div>
   )

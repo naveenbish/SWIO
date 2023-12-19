@@ -29,5 +29,4 @@ const App = () => {
     </body>
   )
 }
-
 export default App
