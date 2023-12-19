@@ -1,8 +1,6 @@
-
-
 const Scrollableanime1 = () => {
   return (
-      <div className="flex flex-row">
+      <div className="flex flex-row mt-[-00px] ">
           <div className="relative flex flex-col lg:w-1/2 lg:py-24 gap-20 lg:gap-0">
          <div className=" relative  flex w-full flex-col lg:flex-row lg:justify-start items-center sm:items-start lg:py-40 text-lg md:text-2xl sm:text-left gap-12 lg:gap-0 lg:pl-11">
          <div className="flex flex-col justify-center">
@@ -23,7 +21,7 @@ const Scrollableanime1 = () => {
                       </div>
                   </div>   
                   <div className="relative lg:absolute lg:left-full w-full inset-y-0 py-16 lg:py-0 flex flex-col justify-center items-center">
-                      <div className="lg:hidden absolute inset-0 shadow-sm dark:shadow-lg rounded-2xl bg-[url('https://replay.software/sleeve/images/SonomaWallpaperDark@2x.jpg')] bg-cover bg-center">
+                      <div className="lg:hidden absolute inset-0 shadow-sm dark:shadow-lg rounded-2xl bg-[url('https://replay.software/sleeve/images/SonomaWallpaperDark@2x.jpg')] dark:bg-[url('https://replay.software/sleeve/images/SonomaWallpaperDark@2x.jpg')] bg-cover bg-center">
                       </div>  
                       <div className="relative flex flex-col gap-7 items-center  justify-center z-20 transform-gpu">
                       <div className="relative flex transform-gpu">
