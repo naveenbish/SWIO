@@ -24,20 +24,15 @@ const Home = () => {
       <span className="ml-1 whitespace-nowrap">
         <span className="relative top-[2px] mr-1 sm:mr-0 sm:top-[4px] inline-flex w-[20px] sm:w-[24px] h-[20px] sm:h-[24px]">
                             <img
-                                src="https://replay.software/sleeve/images/AppSpotifyDark.png"
-                                alt="Image of an app icon"
-                                width="24" height="24"
-                            />
+                                src="https://replay.software/sleeve/images/AppSpotifyDark.png"alt="2 icon"width="24" height="24"/>
         </span>
         Spotify
       </span>, and
       <span className="ml-1 whitespace-nowrap">
         <span className="relative top-[2px] mr-1 sm:mr-0 sm:top-[4px] inline-flex w-[20px] sm:w-[24px] h-[20px] sm:h-[24px]">
                             <img
-                                src="https://replay.software/sleeve/images/AppDopplerDark.png"
-                                alt="Image of an app icon"
-                                width="24" height="24"
-                            />
+                                src="https://replay.software/sleeve/images/AppDopplerDark.png"alt="icon2"
+                                width="24" height="24" />
         </span>
         Doppler.
       </span>

@@ -7,6 +7,7 @@ import Home from "./components/Home"
 import ImmersiveCard from "./components/ImmersiveCard"
 import Payment from "./components/Payment"
 import RedirectToSonoama from "./components/RedirectToSonoama"
+import Scrollableanime1 from "./components/Scrollableanime1"
 
 const App = () => {
   return (
@@ -21,7 +22,8 @@ const App = () => {
       <AfterBigCardRight />
       </div>
       <AfterBigCardText />
-     <ImmersiveCard />
+      <ImmersiveCard />
+      <Scrollableanime1/>
     </body>
   )
 }

@@ -1,6 +1,6 @@
 const AfterBigCardText = () => {
   return (
-      <div className="flex flex-col items-center gap-8 mb-16">
+      <div className="flex flex-col  justify-center items-center gap-8 mb-16">
           <small className="inline-flex gap-2 font-semibold text-[#783AF5] dark:text-[#9C6AFF] uppercase tracking-wider">
               Customization
           </small>

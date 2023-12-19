@@ -1,8 +1,9 @@
 const ImmersiveCard = () => {
-    return (
-   <div className="flex items-center justify-center space-x-8 w-screen lg:w-auto ml-[230px] overflow-visible mb-16">
+  return (
+   
+   <div className="relative flex items-center justify-center space-x-8 w-screen lg:w-auto  ml-[239px] ">
       <span className="z-0 ">
-        <span className="transition-all duration-500 ease-in-out delay-500 transform scale-100 opacity-100">
+        <span className="transition-opacity ease-in-out duration-500 transform scale-100 opacity-100">
           <img
             src="https://replay.software/sleeve/images/IconArrayHotkeysDark.png" alt="Icon1"
             className="  max-w-none transition-opacity duration-500 mt-0" width="96" height="96" /></span>
@@ -55,7 +56,8 @@ const ImmersiveCard = () => {
           src="https://replay.software/sleeve/images/IconArraySettingsDark.png" alt="icon9"
           className="right-[500px] relative max-w-none transition-opacity duration-500 mt-0" width="96" height="96"/> </span>
       </span>
-            </div>
+      </div>
+ 
   )
 }
 export default ImmersiveCard
