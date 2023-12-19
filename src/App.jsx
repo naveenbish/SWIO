@@ -7,10 +7,10 @@ import Home from "./components/Home"
 import ImmersiveCard from "./components/ImmersiveCard"
 import Payment from "./components/Payment"
 import RedirectToSonoama from "./components/RedirectToSonoama"
-import Scrollableanime1 from "./components/Scrollableanime1"
-import Scrollableanime2 from "./components/Scrollableanime2"
-import Scrollableanime3 from "./components/Scrollableanime3"
-import Scrollableanime4 from "./components/Scrollableanime4"
+// import Scrollableanime1 from "./components/Scrollableanime1"
+// import Scrollableanime2 from "./components/Scrollableanime2"
+// import Scrollableanime3 from "./components/Scrollableanime3"
+// import Scrollableanime4 from "./components/Scrollableanime4"
 
 const App = () => {
   return (

@@ -1,7 +1,7 @@
 const ImmersiveCard = () => {
   return (
  
-   <div className="relative flex space-x-8  w-fit ml-96 ">
+   <div className="relative flex space-x-8  w-fit ml-96  pb-32">
       <span className="z-0 ">
         <span className="transition-opacity ease-in-out duration-500 transform scale-100 opacity-100">
           <img
