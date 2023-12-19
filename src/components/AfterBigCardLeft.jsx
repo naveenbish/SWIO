@@ -11,8 +11,13 @@ const AfterBigCardLeft = () => {
       <div className="flex flex-col lg:flex-row gap-4 py-9 px-11 h-full">
         <div className="flex my-auto flex-col gap-4 text-lg">
           <b className="font-semibold text-2xl">Change it up</b>
-          <p className="lg:w-[20ch]">Switch between themes with just a click.</p>
-          <p className="lg:w-[24ch]">Modify the built-in themes or create your own using Sleeve’s extensive preferences.</p>
+          <p className="lg:w-[20ch]">
+            Switch between themes with just a click.
+          </p>
+          <p className="lg:w-[24ch]">
+            Modify the built-in themes or create your own using Sleeve’s
+            extensive preferences.
+          </p>
         </div>
         <div className="relative flex lg:flex-col gap-y-2  my-auto ml-3 pt-12 lg:pt-0">
           <img
@@ -36,4 +41,3 @@ const AfterBigCardLeft = () => {
 };
 
 export default AfterBigCardLeft;
-

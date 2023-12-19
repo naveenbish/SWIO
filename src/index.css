@@ -17,7 +17,7 @@ body {
   --tw-bg-opacity: 1;
     background-color: rgb(17 17 17/var(--tw-bg-opacity));
     color: hsla(0, 0%, 100%, .9);
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .wrapper{
