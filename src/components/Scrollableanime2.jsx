@@ -2,16 +2,15 @@
 
 const Scrollableanime2 = () => {
   return (
-      <div
-          className="relative flex flex-col lg:flex-row lg:justify-start items-center sm:items-start lg:py-40 text-lg md:text-2xl sm:text-left gap-12 lg:gap-0 lg:pl-11">
-      <div className="undefined flex flex-col justify-center">
-      <div className="flex flex-col md:flex-row lg:flex-col items-center sm:items-start md:items-center lg:items-start gap-4 md:gap-16 lg:gap-7 mb-6 md:mb-10 lg:mb-16">
+      <div className="relative flex flex-col lg:flex-row lg:justify-start items-center sm:items-start lg:py-40 text-lg md:text-2xl sm:text-left gap-12 lg:gap- lg:pl-11">
+      <div className="flex flex-col justify-center">
+      <div className="flex flex-col md:flex-row lg:flex-col items-center sm:items-start md:items-center lg:items-start md:gap-16 lg:gap-7 mb-6 md:mb-10 lg:mb-16">
       <div className="flex items-center justify-center sm:justify-start sm:-mx-0.5">
-                      <div className="-mr-5 -ml-5 sm:-mr-11 sm:ml-0">
+                      <div className="mr-5 -ml-5 sm:-mr-11 sm:ml-0">
                           <span className="relative max-w-none transition duration-500">
   <img
     src="https://replay.software/sleeve/images/IconArrayTrackDark.png"alt="Iicon"width="86"height="86" className="w-86 h-86 mt-0" />
-                          </span>
+                      </span>
                       </div>
                   </div>
                   <h3 className="text-3xl md:text-5xl font-bold">Typography</h3>
@@ -40,7 +39,7 @@ const Scrollableanime2 = () => {
       src="https://replay.software/sleeve/images/Typography2Dark.jpg" alt="Imageinterface2" width="330"height="305"className="w-330 h-305 rounded-xl"/>
   </span>
 </div>
-              </div>
+          </div>
           </div>
       </div>
      
