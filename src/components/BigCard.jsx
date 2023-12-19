@@ -1,7 +1,7 @@
 const BigCard = () => {
     return (
-    
-      <div className="ml-28 md:col-span-2 h-[360px] max-w-fit bg-[url('https://replay.software/sleeve/images/HeroDark@2x.png'),_linear-gradient(to_top_right,#0E95EE,#27C9F5)] dark:bg-[url('https://replay.software/sleeve/images/HeroDark@2x.png'),_linear-gradient(to_top_right,#07384B,#0F536E)] bg-cover bg-bottom rounded-2xl shadow-outline dark:shadow-outline-bright">
+    <div className="w-full">
+        <div className="md:col-span-2 h-[360px] max-w-fit bg-[url('https://replay.software/sleeve/images/HeroDark@2x.png'),_linear-gradient(to_top_right,#0E95EE,#27C9F5)] dark:bg-[url('https://replay.software/sleeve/images/HeroDark@2x.png'),_linear-gradient(to_top_right,#07384B,#0F536E)] bg-cover bg-bottom rounded-2xl shadow-outline dark:shadow-outline-bright">
       <div className="flex w-full h-full items-center justify-center md:gap-8 lg:gap-16 overflow-hidden">
           <div className="pt-3">
               <div className="relative flex flex-1 items-center justify-center text-center z-20">
@@ -96,6 +96,7 @@ const BigCard = () => {
        </div>
       </div>
      </div>
+    </div>
   )
 }
 export default BigCard

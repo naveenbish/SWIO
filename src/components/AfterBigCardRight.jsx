@@ -2,7 +2,7 @@
 
 const AfterBigCardRight = () => {
   return (
-    <div className=" mr-28 relative rounded-2xl bg-gradient-to-br from-[rgba(150,255,238,0.1)] to-[rgba(24,192,233,0.1)] shadow-outline dark:shadow-outline-bright overflow-hidden">
+    <div className="relative rounded-2xl bg-gradient-to-br from-[rgba(150,255,238,0.1)] to-[rgba(24,192,233,0.1)] shadow-outline dark:shadow-outline-bright overflow-hidden">
       <img
         src="https://replay.software/sleeve/images/ThemeFile.png"
         alt="main r-1"

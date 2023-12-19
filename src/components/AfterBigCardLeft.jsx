@@ -1,6 +1,6 @@
 const AfterBigCardLeft = () => {
   return (
-    <div className=" ml-28 relative rounded-2xl bg-gradient-to-br from-[rgba(121,220,233,0.1)] to-[rgba(53,121,245,0.1)] shadow-outline dark:shadow-outline-bright overflow-hidden">
+    <div className="relative rounded-2xl bg-gradient-to-br from-[rgba(121,220,233,0.1)] to-[rgba(53,121,245,0.1)] shadow-outline dark:shadow-outline-bright overflow-hidden">
       <img
         src="https://replay.software/sleeve/images/ThemeIcon.png"
         alt="brush icon"

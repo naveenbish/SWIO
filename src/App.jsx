@@ -15,13 +15,13 @@ import Scrollableimgsec from "./components/Scrollableimgsec"
 
 const App = () => {
   return (
-    <body className=" absolute flex flex-col antialiased gap-24 container sm:pt-4 pb-24">
+    <body className="wrapper">
       <Home />
       <Payment />
       <RedirectToSonoama />
       <AfterRedirectText />
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
       <BigCard />
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
       <AfterBigCardLeft />
       <AfterBigCardRight />
       </div>

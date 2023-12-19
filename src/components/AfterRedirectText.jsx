@@ -2,7 +2,7 @@
 
 const AfterRedirectText = () => {
     return (
-      <section className="text-center">
+      <section className="text-center pt-16 pb-10">
       <div
           className="flex flex-col items-center gap-8 text-white">
           <small
