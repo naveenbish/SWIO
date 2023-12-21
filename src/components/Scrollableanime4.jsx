@@ -62,7 +62,7 @@ const Scrollableanime4 = () => {
           </div>
 
           <div className="relative lg:absolute lg:left-full w-full inset-y-0 lg:py-0 flex flex-col justify-center items-center">
-            <div className="absolute inset-0 shadow-outline dark:shadow-outline-bright rounded-2xl bg-[url('https://replay.software/sleeve/images/SonomaWallpaperDark@2x.jpg')] dark:bg-[url('https://replay.software/sleeve/images/SonomaWallpaperDark@2x.jpg"></div>
+            {/* <div className="absolute inset-0 shadow-outline dark:shadow-outline-bright rounded-2xl bg-[url('https://replay.software/sleeve/images/SonomaWallpaperDark@2x.jpg')] dark:bg-[url('https://replay.software/sleeve/images/SonomaWallpaperDark@2x.jpg"></div> */}
             <div className="relative flex flex-col gap-7 items-center justify-center z-20 transform-gpu">
               <div className="flex flex-col -space-y-6">
                 <div className="relative -left-6 z-30">
